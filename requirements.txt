@@ -9,3 +9,4 @@ tzdata==2026.2
 gunicorn
 pymysql
 dj-database-url
+psycopg2-binary
