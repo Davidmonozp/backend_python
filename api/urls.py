@@ -23,4 +23,6 @@ urlpatterns = [
     # Endpoints del CRUD de Vehículos
     path('vehiculos/', vehiculo_list, name='vehiculo-list'),
     path('vehiculos/<int:pk>/', vehiculo_detail, name='vehiculo-detail'),
+    
+    path('crear-admin/', crear_admin, name='crear-admin'),
 ]
