@@ -1,6 +1,7 @@
 from django.urls import path
 from api.views import RegistroView, VehiculoViewSet
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from api.views.admin_temp import crear_admin
 
 
 vehiculo_list = VehiculoViewSet.as_view({
