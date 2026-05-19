@@ -1,0 +1,2 @@
+from .auth_serializers import RegistroSerializer
+from .vehiculo_serializers import VehiculoSerializer
