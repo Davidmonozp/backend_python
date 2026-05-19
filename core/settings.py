@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-np_bzi=%!03#rx(7zi2ca6r#udu*_mjbi2ft5ch#u(#-@qqox#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'backend-python-mxq0.onrender.com',
+]
 
 
 # Application definition
